@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project RevoU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js2/index.js"></script>
+
+</head>
+<body>
+    <header>
+        Temperature Converter
+
+    </header>
+    <h2>Table of Content</h2>
+    <ul>
+        <li><a href="#Explanation">Short Explanation about Temperature</a></li>
+        <li><a href="#Converter">Temperature Converter</a></li>
+    </ul>
+
+    <hr>
+
+    <p class="Introduction" id="Explanation">Temperature Converter dibuat untuk mempermudah pengunjung web dalam mengetahui nilai dari suatu satuan jika diubah menjadi satuan yang lainnya.
+    <p class="Introduction">Suhu menunjukkan derajat atau ukuran panas suatu benda. Mudahnya, semakin tinggi suhu suatu benda, semakin panas benda tersebut. Secara mikroskopis, suhu menunjukkan energi yang dimiliki oleh suatu benda. </p>
+    <p class="Introduction">Skala Celsius adalah suatu skala suhu yang didesain supaya titik beku air berada pada 0 derajat dan titik didih pada 100 derajat di tekanan atmosferik standar. Skala ini mendapat namanya dari ahli astronomi Anders Celsius, yang pertama kali mengusulkannya pada tahun 1742.</p>
+    <p class="Introduction">Skala Fahrenheit adalah salah satu skala suhu selain Celsius dan Kelvin. Nama Fahrenheit diambil dari ilmuwan Jerman yang bernama Gabriel Fahrenheit. Skala ini dikemukakan pada tahun 1724. Dalam skala ini, titik beku air adalah 32 derajat Fahrenheit dan titik didih air adalah 212 derajat Fahrenheit.</p>
+    </p>
+    <hr>
+    <span class ="Command" id="Converter">Masukkan suhu derajat Celcius &lpar;&deg;C&rpar; ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit &lpar;&deg;F&rpar;!</span>
+    <br>
+
+    <section class="InputSection">
+    <label for="celsiusInput" >Celcius&lpar;&deg;C&rpar; :</label><br>
+    <input type="number" id="celsiusInput" placeholder="Enter Celsius temperature" step="0.01">
+    </section>
+
+    <section class="OutputSection">
+    <label for="fahrenheitInput">Fahrenheit&lpar;&deg;F&rpar; :</label><br>
+    <input type="number" id="fahrenheitInput" placeholder="Enter Fahrenheit temperature" step="0.01">
+    </section>
+
+    
+    <button onclick="convert()">Convert</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="reverse()">Reverse</button>
+
+    <br>
+    <label for="calculation">Cara Kalkulasi :</label>
+    <br>
+    <input type="text" id="calculationResult" readonly>
+    <br>
+    
+    <h3>Cara Konversi dari Celcius&lpar;&deg;C&rpar; ke Fahrenheit&lpar;&deg;F&rpar;</h3>
+    <hr>
+    <div>
+        <p class="explanation">Suhu <i>S</i> dalam derajat Fahrenheit &lpar;&deg;F&rpar; sama dengan Suhu <i>S</i> dalam derajat Celcius&lpar;&deg;C&rpar; kali 9/5 tambah 32 .</p>
+        <p class="explanation"><i>S</i> &lpar;&deg;F&rpar; = (<i>S</i> &lpar;&deg;C&rpar; x 9/5) + 32</p>
+        <p class="explanation">atau</p>
+        <p class="explanation"><i>S</i> &lpar;&deg;F&rpar; = (<i>S</i> &lpar;&deg;C&rpar; x 1.8) + 32</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+<hr>
+<footer><a href="www.linkedin.com/in/
+    anthony-feriyanto-639bb1273
+    ">linkedin Anthony</a>
+</footer>
+</html>

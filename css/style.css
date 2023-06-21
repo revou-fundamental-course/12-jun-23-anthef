@@ -1,0 +1,108 @@
+/* MARK : MAIN */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+header {
+    background-color: #A2CDB0;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    background-color:#99dbf55d;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+    
+button:hover {
+    background-color: #99DBF5;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+/* MARK : CLASS */
+.Introduction {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium ;
+    text-align: justify;
+    
+}
+
+.OutputSection {
+    margin-top: 10px;
+}
+
+.Command {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+
+}
+
+.explanation {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+/* MARK : ID */
+
+
+#celsiusInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    width: 350px;
+    padding: 5px 10px;
+}
+
+#fahrenheitInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    width: 350px;
+    padding: 5px 10px;
+}
+
+#OutputField2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+    width: 350px;
+    padding: 5px 10px;
+}
+
+#calculationResult {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        outline: none;
+        font-size: 18px;
+        width: 350px;
+        padding: 5px 10px;
+}
